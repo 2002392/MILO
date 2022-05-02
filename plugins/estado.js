@@ -1,12 +1,12 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, command, text, usedPrefix }) => {
   await conn.send3Button(m.chat, `
-*ミ💖 Hola estimado usuario 💖彡*
+*ミ💖 Hola estimado usuario🍷🧐 Soy el puto bot   💖彡*
 
 *ミ🤖 Estado del Bot 🤖彡*
-*=> Bot activo ✔️*
+*=> BotDanery activo ✔️*
 *=> Bot uso público ✔️*
-`.trim(), '©𝓕ⲛⲂⲟⲧ', '🔷️ MENÚ 🔷', `${usedPrefix}menu`, '🔶️ MENÚ SIMPLE 🔶️', `${usedPrefix}menusimple`, '💠️ MENÚ AUDIOS 💠️', `${usedPrefix}menuaudios`)
+`.trim(), '©Danery Bot', '🔷️ MENÚ 🔷', `${usedPrefix}menu`, '🔶️ MENÚ SIMPLE 🔶️', `${usedPrefix}menusimple`, '💠️ MENÚ AUDIOS 💠️', `${usedPrefix}menuaudios`)
 }
 handler.command = /^(estado|status|estate|state|stado|stats)$/i
 
