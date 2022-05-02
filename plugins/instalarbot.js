@@ -4,7 +4,6 @@ let handler = async m => m.reply(`
 *◄┢┅͜͡✇⟬↯ື ►∉𝓕𝓪͢͢͢𝓫𝓲𝓪𝓷∌◄ ↯ື⟭✇͜͡┅┧►*
 
 💥 𝐑𝐄𝐐𝐔𝐈𝐒𝐈𝐓𝐎𝐒 𝐏𝐀𝐑𝐀 𝐋𝐀 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 💥
-➤ Tutorial completo: https://youtu.be/6J3OZXzib5Q
 ➤ Termux  
 ➤ 1 GB de memoria en el teléfono
 ➤ Aconsejable un WhatsApp secundario
@@ -24,7 +23,7 @@ let handler = async m => m.reply(`
 ➤ pkg install git 
 ➤ pkg install nodejs
 ➤ pkg install npm
-➤ git clone https://github.com/FabianFN/FNBot
+➤ git clone https://github.com/danerybaez27/FNBot
 ➤ cd FNBot
 ➤ npm start 
 
@@ -32,9 +31,9 @@ let handler = async m => m.reply(`
 
 💥 INFO EXTRA 💥
 - Puede ocasionar que el numero se vaya a soporte 
-➤ Numero de ayuda durante la instalacion: wa.me/51933748331 (No Bot, solo ayuda durante la instalación)
+➤ Numero de ayuda durante la instalacion: wa.me/18292077732  (No Bot, solo ayuda durante la instalación)
 
-*◄┢┅͜͡✇⟬↯ື ►ஜ۩💥۩ஜ◄ ↯ື⟭✇͜͡┅┧►*
+Danery hanma 
 `.trim()) 
 handler.help = ['instalarbot']
 handler.tags = ['info']
