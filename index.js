@@ -9,7 +9,7 @@ CFonts.say('FNBot', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`Bot creado por Fabian`, {
+CFonts.say(`Bot creado por Danery baez`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
