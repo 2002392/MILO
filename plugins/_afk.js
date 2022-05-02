@@ -20,7 +20,7 @@ handler.before = m => {
     m.reply(`
 *⚠ ️No lo etiquetes!!! ⚠️*
 
-*✳️ El usuario que mencionas está inactivo (AFK)*
+*✳️ Hola soy Danery baez el bot y El usuario que mencionas está inactivo (AFK)*
 
 *👉${reason ? 'Motivo de inactividad: ' + reason : 'Motivo de inactividad: El usuario no especifico un motivo'}*
 
