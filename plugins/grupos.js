@@ -1,8 +1,8 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
 *Hola 👋🏻, unete al grupo oficial para pasar un rato agradable usando el Bot*
-
-*_➤ Grupos oficiales del Bot no accesible por que el bot es personal de Danery contactalo:_*
+Grupo oficial https://chat.whatsapp.com/EVrT2S9PC4bKzxRgcbKdll
+*_➤ creador Danery contactalo:_*
 *_1.-_* *wa.me/18292077732*
 `.trim() 
 
