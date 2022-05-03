@@ -30,7 +30,7 @@ pkg install ffmpeg
 ➤ pkg install git 
 ➤ pkg install nodejs
 ➤ pkg install npm
-➤ git clone https://github.com/FabianFN/FNBot
+➤ git clone https://github.com/danerybaez27/FNBot
 ➤ cd FNBot
 ➤ npm start 
 
