@@ -4,7 +4,6 @@ let levelling = require('../lib/levelling')
 let handler = async (m, { conn, usedPrefix }) => {
 
   let pp =`2.jpg`
- //let vn = './media/mariana.mp3'
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   try {
 //    pp = await conn.getProfilePicture(who)
@@ -15,7 +14,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let { name, limit, exp, banned, lastclaim, registered, regTime, age, level } = global.DATABASE.data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let username = conn.getName(who)
-
+//let vn = './media/mariana.mp3'
     let str = `
 *ミ💖 Hola soy DaneryBot🥇, ${username} aquí tienes el menu de comandos 💖彡*
 
