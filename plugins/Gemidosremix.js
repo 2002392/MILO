@@ -3,7 +3,7 @@ dejar  ruta  =  necesaria ( 'ruta' )
 
 dejar  controlar  =  asíncrono  ( m ,  { conexión } )  =>  {
 let  vn  =  './media/Gemi2Remix.mp3'
-contacto _ sendFile ( m . chat ,  vn ,  'Banate.mp3' ,  null ,  m ,  true ,  {
+contacto _ sendFile ( m . chat ,  vn ,  'Gemi2Remix.mp3' ,  null ,  m ,  true ,  {
 tipo : 'audioMensaje' , 
 pt : cierto
 } )
