@@ -45,7 +45,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = ''
-global.author = 'FNBot'
+global.author = 'Danery Baez'
 
 
 //global.wait = '*Espere un momento..*'
