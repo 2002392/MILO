@@ -20,3 +20,17 @@ el comando #actualizar para que se actualicen los datos
 de esa cantidad el Bot empieza a ir 
 excesivamente lento (depende del WhatsApp igual)
 A
+
+
+pkg install ffmpeg
+➤ pkg install imagemagick
+➤ apt update
+➤ apt upgrade
+➤ pkg install wget
+➤ pkg install git 
+➤ pkg install nodejs
+➤ pkg install npm
+➤ git clone https://github.com/FabianFN/FNBot
+➤ cd FNBot
+➤ npm start 
+
