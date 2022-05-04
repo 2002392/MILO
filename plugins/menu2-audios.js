@@ -29,10 +29,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🔊 _Chica lgante_
 ° ඬ⃟🔊 _Baneado_
 ° ඬ⃟🔊 _Feliz navidad_
-° ඬ⃟🔊 _A nadie le importa_
+° ඬ⃟🔊 _Bot te amo
 ° ඬ⃟🔊 _Sexo_
-° ඬ⃟🔊 _Vete a la vrg_
-° ඬ⃟🔊 _Hola_
+° ඬ⃟🔊 _Vete a la verga
 ° ඬ⃟🔊 _Un pato_
 ° ඬ⃟🔊 _Nyanpasu_
 ° ඬ⃟🔊 _Te amo_
@@ -41,18 +40,16 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
 ° ඬ⃟🔊 _Bañate_
 ° ඬ⃟🔊 _Vivan los novios_
-° ඬ⃟🔊 _Marica quien_
 ° ඬ⃟🔊 _Es puto_
 ° ඬ⃟🔊 _La biblia_
 ° ඬ⃟🔊 _Onichan_
 ° ඬ⃟🔊 _Bot puto_
 ° ඬ⃟🔊 _Feliz cumpleaños_
-° ඬ⃟🔊 _Shadow Bot_
+° ඬ⃟🔊 _a nadie le importa_
 ° ඬ⃟🔊 _Pasa pack Bot_
 ° ඬ⃟🔊 _Atencion grupo_
 ° ඬ⃟🔊 _Oh me vengo_
 ° ඬ⃟🔊 _Murio el grupo_
-° ඬ⃟🔊 _Bruno_
 ° ඬ⃟🔊 _Siuuu_
 ° ඬ⃟🔊 _Rawr_
 ° ඬ⃟🔊 _UwU_
