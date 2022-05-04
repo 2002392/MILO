@@ -2,12 +2,12 @@ let util = require('util')
 let path = require('path')
 
 let handler = async (m, { conn }) => {
-let vn = './media/maau1.mp3'
-conn.sendFile(m.chat, vn, 'maau1.mp3', null, m, true, {
+let vn = './media/admin-calzones.mp3'
+conn.sendFile(m.chat, vn, 'admin-calzones.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true 
 })
 }
-handler.customPrefix = /sexo|Sexo|Hora de sexo|hora de sexo/ 
+handler.customPrefix = /TENGO LOS CALZONES|Tengo los calzones|tengo los calzones/i 
 handler.command = new RegExp
 module.exports = handler
