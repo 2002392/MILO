@@ -10,7 +10,7 @@ let handler = async m => m.reply(`
 
 💥 𝐀𝐑𝐄𝐀 𝐃𝐄 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 💥
 ➤ Termux: https://www.mediafire.com/download/79r29qab48tm0fo
-➤ WhatsApp recomendado: https://www.mediafire.com/file/j5vmyudprv012ol/%25E2%259E%25A2_SOLITARIO_BUSINESS_%25E2%259E%25A2_2.21.19.21.apk/file
+➤ WhatsApp recomendado: https://download2276.mediafire.com/b872k14wtlxg/zmwwd8z8c2my703/GBWhatsApp_2.22.2.23.apk
    
 💥 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 𝐕𝐈𝐀 𝐆𝐈𝐓𝐇𝐔𝐁 💥
 ➤ pkg install ffmpeg
