@@ -11,7 +11,7 @@ let video = fs.readFileSync(`./videos/${pickRandom(['1','2','3','4','5','6','7',
 
      conn.sendFile(m.chat, video, '1.mp4', caption, m)
 }
-handler.command = /^video|vídeo$/i
+handler.command = /^video|vídeo$/
 module.exports = handler
 
 function pickRandom(list) {
