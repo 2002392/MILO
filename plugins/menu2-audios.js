@@ -23,6 +23,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪ ✢ Solo escriba la palabra/frase. sin prefijo ⎪ (/ . # etc...) 
 ⎪≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ⎪➫🔊 _Noche de paz_
+⎪➫🔊 _Ezcuchame_
+⎪➫🔊 _Flaco_
 ⎪➫🔊 _Buenos dias_
 ⎪➫🔊 _Audio hentai_
 ⎪➫🔊 _Fiesta del admin_
