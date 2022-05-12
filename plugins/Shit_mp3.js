@@ -3,11 +3,16 @@ let path = require('path')
 
 let handler = async (m, { conn }) => {
 let vn = './media/shit.mp3'
-conn.sendFile(m.chat, vn, 'shit'.mp3', null, m, true, {
-type: 'audioMessage', // paksa tanpa convert di ffmpeg
-ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
+conn.sendFile(m.chat, vn, 'Feliz cumple.mp3', null, m, true, {
+type: 'audioMessage', 
+ptt: true 
 })
 }
-handler.customPrefix = /shit|Shit/
+handler.customPrefix = /shit|Shit|shit/i
 handler.command = new RegExp
+
+
+
+handler.fail = null
+handler.exp = 100
 module.exports = handler
