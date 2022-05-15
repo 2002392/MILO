@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /esto se va a descontrolar2|Esto se va a descontrolar2|esto se va a descontrolar 2/i
+handler.customPrefix = /troll2|Troll2|espirer2/i
 handler.command = new RegExp
 
 
