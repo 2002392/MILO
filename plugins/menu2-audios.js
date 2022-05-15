@@ -169,8 +169,8 @@ _➫🔊 _ganemos_
          VOLUMEN: ▁▂▃▄▅▆▇ 100%
 ╰════• ೋ•✧๑♡๑✧•ೋ •════╯`.trim()
     let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '© Danery,Camilo bot - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, 'CREADOR DEL BOT', `#owner`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
+conn.send3ButtonImg(m.chat, pp, menu, '© Danery,Camilo bot - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, 'CREADOR DEL BOT', `#owner`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})
   }
 }
 handler.help = ['menu2']
