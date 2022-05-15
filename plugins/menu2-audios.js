@@ -1,32 +1,22 @@
-//NO MODIFIQUES EL NÚMERO DEL CREADOR NI EL NOMBRE.. SOLO AGREGA LA INFORMACIÓN QUE TU QUIERAS O EDITALO A TU MANERA PERO DEJANDO LOS CREDITOS <3 
-//PUEDES AGREGAR OTRA FILAS DE PAYPAL, GRUPOS, PERO DEJA ALGUNOS CREDITOS, YA QUE ES LA UNICA MANERA DE INGRESOS DEL BOT
-//SI VAS A MODIFICAR TODO Y HACER PASAR COMO SI FUERA TU BOT (CREADO POR TI) SOLO TE PIDO QUE SI ESTA EN TUS POSIBILIDADES DONES UN POCO
-//LLEVO AL REDEDOR DE 1 AÑO Y MEDIO EN LA ELABORACION DE ESTE BOT, SI TU LO EDITAS EN UNA SEMANA NO ERES TU EL CREADOR, SI LO EDITAS TOTALMENTE A TU MANERA SERIA UTULIZADO MI BOT COMO BASE Y AHI SI LO SERIAS  
+let PhoneNumber = require('awesome-phonenumber')
+let levelling = require('../lib/levelling')
 
-let fs = require('fs')
-let fetch = require('node-fetch')
-let moment = require('moment-timezone')
-let path = require('path')
-let util = require('util')
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './Menu2.jpg'
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let username = conn.getName(who)
-//let vn = './media/mariana.mp3'
-let menu =`
-╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
-║═ *𝐓𝐡𝐞 Hanmilo - 𝐁𝐨𝐭*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *✨𝗛ola, ${username}!!*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *Creador del Bot: Danerys baez* 
-║➤ *Numero del creador:* *wa.me/18292077732 (No Bot)*
-║➤ *Numero del Bot oficial:* *wa.me/573106442515*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-╰══╡✯✯✯✯✯✯✯✯╞══╯
-┏━━━━━━━━━━━━━┓
-══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╮    
-⎪ *_ミ💖 ¡Aqui esta los audios! ${username} 💖彡_*
+
+  let pp = './Menu2.jpg'
+  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+  try {
+//    pp = await conn.getProfilePicture(who)
+  } catch (e) {
+
+  } finally {
+    let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
+    let { name, limit, exp, banned, lastclaim, registered, regTime, age, level } = global.DATABASE.data.users[m.sender]
+    let { min, xp, max } = levelling.xpRange(level, global.multiplier)
+    let username = conn.getName(who)
+    let str =  `  
+⎪══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╮    
+⎪ *_ミ💖 ¡Hola! ${username} 💖彡_*
 ⎪≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ⎪ *MENU DE AUDIOS*
 ⎪≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
@@ -172,15 +162,28 @@ _➫🔊 _ganemos_
 ⎪➫🔊 _Las reglas del grupo_
 ╰══〘 🤤⚡️😈⚡️😼⚡️❤️ 〙══╯
 
-
-┗━━━━━━━━━━━━━┛`.trim()
-let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu2, '© Danery,Camilo bot - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, 'CREADOR DEL BOT', `#owner`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
-//await await await await await await conn.sendFile(m.chat, vn, 'media/hola', null, m, false, {
-//type: 'audioMessage', 
-//ptt: true 
-//})
+╭════• ೋ•✧๑♡๑✧•ೋ •════╮
+        👽 HanmiloBot 👽
+         0:40 ━❍──────── -8:39
+         ↻     ⊲  Ⅱ  ⊳     ↺
+         VOLUMEN: ▁▂▃▄▅▆▇ 100%
+╰════• ೋ•✧๑♡๑✧•ೋ •════╯`.trim()
+    let mentionedJid = [who]
+    conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
+  }
 }
-handler.command = /^(menu2|menú2|memu2|memú2|help2|info2|comandos2|allmenu2|help2|menu2s|ayuda2|commands2|commandos2)$/i
+handler.help = ['menu2']
+handler.tags = ['General']
+handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
 handler.fail = null
+
 module.exports = handler
