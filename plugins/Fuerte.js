@@ -1,0 +1,18 @@
+let util = require('util')
+let path = require('path')
+
+let handler = async (m, { conn }) => {
+let vn = './fuerte.mp4'
+conn.sendFile(m.chat, vn, 'Feliz cumple.mp3', null, m, true, {
+type: 'audioMessage', 
+ptt: true 
+})
+}
+handler.customPrefix = /ser fuerte|Fuerte|Ser fuerte/i
+handler.command = new RegExp
+
+
+
+handler.fail = null
+handler.exp = 100
+module.exports = handler
