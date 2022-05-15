@@ -9,13 +9,13 @@ let moment = require('moment-timezone')
 let path = require('path')
 let util = require('util')
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './baki.mp4'
+let pp = './Menu.jpg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
-║═ *𝐓𝐡𝐞 Hanma - 𝐁𝐨𝐭*
+║═ *𝐓𝐡𝐞 Hanmilo - 𝐁𝐨𝐭*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *✨𝗛ola, ${username}!!*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
@@ -345,7 +345,7 @@ let menu =`
 ┣ ඬ⃟👑 _${usedPrefix}disable *autoread*_
 ┗━━━━━━━━━━━━━┛`.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '©Danery hanma bot - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '© Danery,Camilo bot - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true 
