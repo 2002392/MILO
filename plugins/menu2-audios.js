@@ -181,6 +181,6 @@ conn.send3ButtonImg(m.chat, pp, menu2, '© Danery,Camilo bot - Bot', '𝙼𝙴�
 //ptt: true 
 //})
 }
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos)$/i
+handler.command = /^(menu2|menú2|memu2|memú2|help2|info2|comandos2|allmenu2|help2|menu2s|ayuda2|commands2|commandos2)$/i
 handler.fail = null
 module.exports = handler
