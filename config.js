@@ -8,6 +8,13 @@ global.prems = ['18292077732'] // No tiene utilidad
 // => Solo dudas sobre la instalación, temas generales contactarme al +1 (561) 971-7826
 // => NO ayudo a hacer Bots, ni crearlos, ni editarlos 
 
+// Ativa o Multiple_Devices na sessão
+	if (sess.Multi_Devices == true) {
+		startOptions.multiDevice = sess.Multi_Devices
+		delete startOptions.chromiumArgs // Caso exista anteriormente
+	} else if (chromium.Enable_Chrome_Args == true) {
+		startOptions.chromiumArgs = chromium.Standart_Chromium_Args
+
 global.APIs = { // API Prefix
   // name: 'https://website'
   amel: 'https://melcanz.com',
