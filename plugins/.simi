@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { text }) => {
-  let res = await fetch(global.https://api.simsimi.net/v2/?text=hello&lc=en&cf=false', '/v2/', { text: encodeURIComponent(text), lc: "es" }, ''))
+  let res = await fetch(global.https://api-sv2.simsimi.net/v2/?text=hello&lc=en&cf=false', '/v2/', { text: encodeURIComponent(text), lc: "es" }, ''))
   let json = await res.json()
   if (json.success) m.reply(json.success)
   else throw json
