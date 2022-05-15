@@ -33,7 +33,7 @@ _- Si todavía tienes alguna duda o reclamo de lo mencionado aqui o referente al
 > Danery<33
 
 
-→ *Solo contactar por temas serios, para preguntas del Bot mas generales contáctame al privado con el comando del comando #owner (al numero wa.me/51933748331)*
+→ *Solo contactar por temas serios, para preguntas del Bot mas generales contáctame al privado con el comando del comando #owner (al numero wa.me/18292077732)*
 
 *∆ -Ⲃⲟⲧ ∆*
 `.trim(), m)
