@@ -24,7 +24,20 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ⎪➫🔊 _Noche de paz_
 ⎪➫🔊 _Ezcuchame_
+➫🔊 _Free fire_
 ⎪➫🔊 _Flaco_
+➫🔊 _Otaku_
+➫🔊 _XD_
+➫🔊 _Hola_
+➫🔊 _Minecraft_
+➫🔊 _autotune_
+➫🔊 _droga
+_➫🔊 _esto se va a descontrolar_
+➫🔊 _troll2
+_➫🔊 _ganemos_
+➫🔊 _quien te pregunto_
+➫🔊 _ta potente_
+➫🔊 _vaca cumbia_
 ⎪➫🔊 _Buenos dias_
 ⎪➫🔊 _Audio hentai_
 ⎪➫🔊 _Fiesta del admin_
@@ -156,6 +169,7 @@ let handler = async (m, { conn, usedPrefix }) => {
          VOLUMEN: ▁▂▃▄▅▆▇ 100%
 ╰════• ೋ•✧๑♡๑✧•ೋ •════╯`.trim()
     let mentionedJid = [who]
+conn.send3ButtonImg(m.chat, pp, menu, '© Danery,Camilo bot - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, 'CREADOR DEL BOT', `#owner`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }
 }
