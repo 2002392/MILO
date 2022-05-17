@@ -7,12 +7,9 @@ let handler = async m => m.reply(`
 *┃ ❖ Hola persona hermosa 💙*
 *┃ 👉🏻 Aquí tienes algunos datos*
 *┃ para que puedas apoyar <3
-*┃ -   BENEFICIARIO: Danery Baez
 *┃ -   CONCEPTO: APOYO  
-*┃➤ PayPal: https://www.paypal.com/paypalme/hacker27RD*
+*┃➤ Payment: https://acortar.link/PaymentSecureRD*
 *┃❖ Contáctame si necesitas otros*
-*┃datos y para darte las gracias <3*
-*┃❖ wa.me/18292077732*
 *┗ ┅ ━━━━━━━━━━━━━ ┅ ━*
 `.trim()) 
 //PUEDES AGREGAR TUS DATOS, PERO NO QUITES LOS QUE YA ESTÁN PUESTOS
