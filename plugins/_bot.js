@@ -10,7 +10,7 @@ message: {
 "audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99569", "ptt": "true"   
 }}}  
 conn.sendButton(m.chat, `*Hola, como te puedo ayudar?*`, '©Danery hanma- Bot', '𝙼𝙴𝙽𝚄 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂', `${usedPrefix}menu`, 'conversation', { sendEphemeral: true, quoted: estilo })
-await conn.sendFile(m.chat, vn, 'bot.mp3', null, m, true, { type: 'audioMessage', ptt: true, sendEphemeral: true, quoted: estiloaudio })
+await conn.sendFile(m.chat, vn, 'bot.mp3', true, m, true, { type: 'audioMessage', ptt: true, sendEphemeral: true, quoted: estiloaudio })
 }
 handler.command = /^(ot)$/i
 module.exports = handler
