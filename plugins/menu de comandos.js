@@ -36,9 +36,7 @@ let menu =`
 ┣ ඬ⃟ℹ️️ _${usedPrefix}labiblia_ (nopor😈)
 ┣ ඬ⃟ℹ️ _${usedPrefix}estado_
 ┣ ඬ⃟ℹ️ _Bot_
-┣ ඬ⃟ℹ️ _¿Qué es un Bot?_
-┣ ඬ⃟ℹ️ _Codigos para audios_
-┣ ඬ⃟ℹ️ _Términos y condiciones_
+┣ ඬ⃟ℹ️ _downloadmenu_ memu de descargas
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<REPORTA FALLOS EN ALGÚN COMANDO/>*
