@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /xd|XD|Xd/i
+handler.customPrefix = /gracioso|jaja|😂/i
 handler.command = new RegExp
 
 
