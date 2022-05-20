@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Momento equisde|momento equisde|Momento xd|Momento XD/i 
+handler.customPrefix = /XD|xd|Momento xd|Momento XD/i 
 handler.command = new RegExp
 
 handler.fail = null
