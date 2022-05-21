@@ -9,8 +9,8 @@ let handler = async m => m.reply(`
 ➤ 2 teléfonos o un 1 teléfono y una PC (es temporal - solo para escanear un código QR)
 
 💥 𝐀𝐑𝐄𝐀 𝐃𝐄 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 💥
-➤ Termux: https://www.mediafire.com/download/79r29qab48tm0fo
-➤ WhatsApp recomendado: https://download2276.mediafire.com/b872k14wtlxg/zmwwd8z8c2my703/GBWhatsApp_2.22.2.23.apk
+➤ Termux: https://f-droid.org/en/packages/com.termux/
+➤ WhatsApp recomendado: https://www.mediafire.com/file/gers3gbbubpshji/%C3%8A%C2%99%C3%A1%C2%B4%C2%9Cs%C3%8D%C2%A8%C3%89%C2%AA%C3%8D%C2%A7%C3%89%C2%B4%C3%A1%C2%B7%C2%A8%C3%A1%C2%B4%C2%87%C3%8D%C2%A3s%C3%A1%C2%B7%C2%A1s%C3%8D%C2%A6+%C3%A2%C2%A9
    
 💥 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 𝐕𝐈𝐀 𝐆𝐈𝐓𝐇𝐔𝐁 💥
 ➤ pkg install ffmpeg
