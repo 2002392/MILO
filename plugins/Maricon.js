@@ -14,13 +14,11 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡🏳️‍🌈🏳️‍🌈🏳️‍🌈🏳️‍🌈
-${username}!!* maricon
-┗━━━━━━━━━━━━━┛`.trim()
+🏳️‍🌈🏳️‍🌈🏳️‍🌈🏳️‍🌈
+${username}!!* maricon`.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '© Danery,Camilo bot - Bot', 'Que gay', `#jaja`, 'Que coma verga', `#wtf`, 'violemoslo', `#xd`, m, false, { contextInfo: { mentionedJid }})   
-//await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, false, {
+//await await await await await await conn.sendFile(m.chat, vn, 'xd.mp3', true, m, false, {
 //type: 'audioMessage', 
 //ptt: true 
 //})
