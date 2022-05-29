@@ -19,12 +19,12 @@ let menu =`
 ${username}!!* maricon
 ┗━━━━━━━━━━━━━┛`.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '© Danery,Camilo bot - Bot', 'Que gay', `#jaja`, 'Que coma vrf', `#wtf`, 'violemoslo', `#xd`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '© Danery,Camilo bot - Bot', 'Que gay', `#jaja`, 'Que coma verga', `#wtf`, 'violemoslo', `#xd`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, false, {
 //type: 'audioMessage', 
 //ptt: true 
 //})
 }
-handler.command = /^(🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺)$/i
+handler.command = /(🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺)$/i
 handler.fail = null
 module.exports = handler
