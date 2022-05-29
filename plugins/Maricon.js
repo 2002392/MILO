@@ -25,6 +25,12 @@ conn.send3ButtonImg(m.chat, pp, menu, '© Danery,Camilo bot - Bot', 'Que gay', `
 //ptt: true 
 //})
 }
-handler.command = /(🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺|🥺)$/i
+handler.customPrefix = /🥺|🥺|🥺/i
+handler.command = new RegExp
+
+
+
+handler.fail = null
+handler.exp = 100
 handler.fail = null
 module.exports = handler
