@@ -1,11 +1,11 @@
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ' , 'https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs' , 'https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F' , 'https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC' , 'https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb'] // No tiene utilidad
-global.owner = ['18292077732'] //Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
-global.mods = ['18292077732'] // No tiene utilidad
-global.prems = ['18292077732'] // No tiene utilidad
+global.owner = ['573223408682'] //Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
+global.mods = ['573223408682'] // No tiene utilidad
+global.prems = ['573223408682'] // No tiene utilidad
 
-// Nota: Puedes contactarme si necesitas ayuda con algo al  +1 (829) 207-7732 (este es mi numero personal/real bloqueo personas que no sean temas de la instalación)
-// => Solo dudas sobre la instalación, temas generales contactarme al +1 8292077732
+// Nota: Puedes contactarme si necesitas ayuda con algo al  +573223408682 (este es mi numero personal/real bloqueo personas que no sean temas de la instalación)
+// => Solo dudas sobre la instalación, temas generales contactarme al +573223408682
 // => NO ayudo a hacer Bots, ni crearlos, ni editarlos 
 
 global.APIs = { // API Prefix
@@ -45,7 +45,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = ''
-global.author = 'Danery baez'
+global.author = 'MILO EG'
 
 
 //global.wait = '*Espere un momento..*'
