@@ -1,14 +1,12 @@
-let handler = async (m, { conn, command, text, usedPrefix }) => {
-  await conn.send3Button(m.chat, `
-*ミ💖 Hola estimado usuario🍷🧐 Soy el puto bot   💖彡*
-
+let  fetch  =  require ( 'node-fetch' )
+let  handler  =  async  ( m ,  { conn , command , text , usedPrefix } )  =>  {
+  esperar  contacto . enviar3Button ( m . chat ,  `
+*ミ Hola estimado usuario🍷🧐 Soy el puto bot ;v 彡*
 *ミ🤖 Estado del Bot 🤖彡*
-*=> BotMILO activo ✔️*
+*=> BotMILo activo ✔️*
 *=> Bot uso público ✔️*
-`.trim(), '©MILO Bot', '🔷️ MENÚ 🔷', `${usedPrefix}menu`, '🔶️ MENÚ SIMPLE 🔶️', `${usedPrefix}menusimple`, '💠️ MENÚ AUDIOS 💠️', `${usedPrefix}menuaudios`)
+` . trim ( ) ,  '©MILO Bot' ,  '🔷️ MENÚ 🔷' ,  ` ${ usedPrefix } menu` ,  '🔶️ MENÚ SIMPLE 🔶️' ,  ` ${ usedPrefix } menusimple` ,  '💠️ MENÚ AUDIOS 💠️' ,  ` ${ usedPrefix } menúaudios` )
 }
-handler.command = /^(estado|status|estate|state|stado|stats)$/i
+manejador _ comando  =  / ^ ( estado | estado | propiedad | estado | estado | estadísticas ) $ / i
 
-handler.exp = 0
-
-module.exports = handler
+manejador _ exp  =  0
