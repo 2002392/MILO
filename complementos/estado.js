@@ -1,4 +1,4 @@
-let  fetch  =  require ( 'node-fetch' )
+let    fetch    =    require ( 'node-fetch' )
 let  handler  =  async  ( m ,  { conn , command , text , usedPrefix } )  =>  {
   esperar  contacto . enviar3Button ( m . chat ,  `
 *ミ Hola estimado usuario🍷🧐 Soy el puto bot ;v 彡*
@@ -21,4 +21,4 @@ modulo _ exportaciones = controlador
 
 
 
-66666666666666666666666
+
