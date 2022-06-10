@@ -12,6 +12,7 @@ manejador _ comando  =  / ^ ( estado | estado | propiedad | estado | estado | es
 
 manejador _ exp  =  0
 
+modulo _ exportaciones = controlador
 
 
 
@@ -20,4 +21,4 @@ manejador _ exp  =  0
 
 
 
-
+66666666666666666666666
